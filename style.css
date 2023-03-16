@@ -157,9 +157,9 @@ a:hover {
   border-radius: 5px;
 }
 
-.about p::before {
+/* .about p::before {
   content: "    ";
-}
+} */
 
 .degree h3, .exp-item h3 {
   margin: 10px 0 5px 0;
