@@ -193,7 +193,9 @@ a:hover {
 
 
 @media (max-width: 640px) {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  .social ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
