@@ -64,7 +64,7 @@ a:hover {
   /* animation: 8s typing steps(16, end), 0.5s text-blink step-end infinite; */
   /* width: 9.6em; */
   width: 100%;
-  white-space: nowrap;
+/*   white-space: nowrap; */
   overflow: hidden;
   /* border-right: 3px solid; */
 }
@@ -189,4 +189,11 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+
+@media (max-width: 640px) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
